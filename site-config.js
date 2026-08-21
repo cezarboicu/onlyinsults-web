@@ -1,10 +1,9 @@
-window.ONLYINSULTS_CONFIG = {
-  domain: "onlyinsults.eu",
+window.ONLYINSULTS = {
+  domain: "onlyinsults.net",
+  website: "https://www.onlyinsults.net",
+  supportEmail: "support@onlyinsults.net",
+  privacyEmail: "privacy@onlyinsults.net",
   launchPrice: "€4.99",
-  supportEmail: "support@onlyinsults.eu",
-  privacyEmail: "privacy@onlyinsults.eu",
-  appStoreUrl: "#",
-  playStoreUrl: "#",
-  appStoreLabel: "App Store — coming soon",
-  playStoreLabel: "Google Play — coming soon"
+  appStoreUrl: "",
+  playStoreUrl: ""
 };

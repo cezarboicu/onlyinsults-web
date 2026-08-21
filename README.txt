@@ -1,25 +1,32 @@
-ONLYINSULTS.EU — STATIC FRONTEND
+ONLYINSULTS.NET — STATIC FRONTEND V2
+====================================
 
-This package is intentionally build-free. It can be uploaded directly to a GoDaddy Linux/cPanel hosting account.
+READY FOR AZURE STATIC WEB APPS.
 
-FILES
-- index.html       Main landing page
-- styles.css       All styling
-- script.js        Small runtime configuration logic
-- site-config.js   Change domain, launch price, emails and store URLs here
-- privacy.html     Launch privacy notice
-- terms.html       Launch website terms
-- support.html     Public support page
-- 404.html         Custom error page
-- robots.txt       Search crawler rules
-- sitemap.xml      Basic sitemap
-- assets/          Favicon and future image assets
+Publish all files from THIS folder at the repository/site root.
+index.html must be at the root.
 
-BEFORE GOING LIVE
-1. Create support@onlyinsults.eu, privacy@onlyinsults.eu and developer@onlyinsults.eu.
-2. Update site-config.js if you change the launch price.
-3. When App Store / Google Play URLs exist, paste them into site-config.js.
-4. Upload the CONTENTS of this folder into your domain's public_html folder (not the parent folder itself).
-5. Make sure SSL/HTTPS is enabled in GoDaddy.
+Key files:
+- index.html                Homepage / DOGS landing page
+- privacy.html              Privacy page
+- terms.html                Terms page
+- support.html              Support page
+- styles.css                Site design
+- site-config.js            Domain, emails, price, future store links
+- script.js                 Small runtime config helper
+- staticwebapp.config.json  Azure Static Web Apps config
+- assets/logo-mark.svg      New OnlyInsults spear/impact logo
+- assets/poster-dogs.png    Existing DOGS campaign poster, shown with non-destructive web overlays for .NET/content
+- assets/og-card.svg        Social preview card
 
-No npm install, build, Node server or database is required for this frontend.
+CURRENT SETTINGS
+- Domain: onlyinsults.net / www.onlyinsults.net
+- Support: support@onlyinsults.net
+- Privacy: privacy@onlyinsults.net
+- Planned price: EUR 4.99/month
+- App Store / Google Play links: blank (Coming Soon)
+
+When the apps are available, edit only site-config.js and set appStoreUrl / playStoreUrl.
+
+IMPORTANT BEFORE PAID PUBLIC LAUNCH
+Complete final legal company/controller details in Privacy and Terms.
